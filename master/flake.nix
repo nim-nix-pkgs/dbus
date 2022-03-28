@@ -11,7 +11,6 @@
   inputs.src-dbus-master.ref   = "refs/heads/master";
   inputs.src-dbus-master.owner = "zielmicha";
   inputs.src-dbus-master.repo  = "nim-dbus";
-  inputs.src-dbus-master.dir   = "";
   inputs.src-dbus-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
