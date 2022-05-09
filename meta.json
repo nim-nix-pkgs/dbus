@@ -7,7 +7,7 @@
   "license": "MIT",
   "web": "https://github.com/zielmicha/nim-dbus",
   "refs": [
-    "fatal: unable to access 'https://github.com/zielmicha/nim-dbus/': SSL connection timeout",
+    "fatal: unable to access 'https://github.com/zielmicha/nim-dbus/': Could not resolve host: github.com",
     ""
   ],
   "heads": []
