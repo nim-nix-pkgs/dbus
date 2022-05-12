@@ -7,8 +7,37 @@
   "license": "MIT",
   "web": "https://github.com/zielmicha/nim-dbus",
   "refs": [
-    "fatal: unable to access 'https://github.com/zielmicha/nim-dbus/': Could not resolve host: github.com",
+    "refs/heads/master",
     ""
   ],
-  "heads": []
+  "heads": [
+    {
+      "name": "dbus",
+      "version": "0.0.1",
+      "author": "Michał Zieliński <michal@zielinscy.org.pl>",
+      "desc": "dbus bindings for Nim",
+      "license": "MIT",
+      "skipDirs": [],
+      "skipFiles": [],
+      "skipExt": [],
+      "installDirs": [],
+      "installFiles": [],
+      "installExt": [],
+      "requires": [
+        {
+          "name": "nim",
+          "str": ">= 0.19.0",
+          "ver": {
+            "kind": "verEqLater",
+            "ver": "0.19.0"
+          }
+        }
+      ],
+      "bin": [],
+      "binDir": "",
+      "srcDir": "",
+      "backend": "c",
+      "ref": "refs/heads/master"
+    }
+  ]
 }
